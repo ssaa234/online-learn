@@ -1,0 +1,257 @@
+.teacher {
+    width: 100%;
+    height: 100%;
+}
+
+.teacher-page-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 24px 60px;
+}
+
+/* 搜索区域 - K12卡通风 */
+.teacher-page-search {
+    border-radius: 24px;
+    padding: 24px 32px;
+    margin-bottom: 32px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.search-container {
+    text-align: center;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    max-width: 600px;
+    margin: 0 auto;
+    background: white;
+    border-radius: 10px;
+    padding: 4px 4px 4px 20px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.search-icon {
+    font-size: 20px;
+    color: #999;
+}
+
+.search-input {
+    flex: 1;
+}
+
+.search-input >>> .el-input__inner {
+    border: none;
+    padding: 12px 0;
+    font-size: 16px;
+}
+
+.search-btn {
+    border-radius: 40px;
+    padding: 10px 24px;
+    background: #667eea;
+    border-color: #667eea;
+}
+
+.search-tip {
+    margin-top: 16px;
+    font-size: 14px;
+    color: rgba(255,255,255,0.9);
+}
+
+.search-tip i {
+    margin-right: 6px;
+}
+
+/* 教师卡片列表 */
+.teacher-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+    gap: 24px;
+}
+
+.teacher-card {
+    background: white;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    transition: all 0.3s ease;
+    display: flex;
+    cursor: pointer;
+    position: relative;
+}
+
+.teacher-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 28px rgba(0,0,0,0.12);
+}
+
+/* 头像区域 */
+.card-avatar {
+    width: 120px;
+    flex-shrink: 0;
+    position: relative;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 120px;
+}
+
+.card-avatar img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid white;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    background: #fff;
+}
+
+/* 当没有头像时显示占位符 */
+.card-avatar img[src=""],
+.card-avatar img:not([src]) {
+    display: none;
+}
+
+.card-avatar:has(img[src=""])::before {
+    content: "📚";
+    font-size: 40px;
+}
+
+/* 职称标签 */
+.card-badge {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #f5c542;
+    color: #8B6914;
+    font-size: 13px;
+    padding: 2px 8px;
+    border-radius: 20px;
+    white-space: nowrap;
+    font-weight: 500;
+}
+
+/* 信息区域 */
+.card-info {
+    flex: 1;
+    padding: 16px 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.teacher-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.teacher-remark {
+    font-size: 13px;
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 12px;
+/*    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    min-height: 160px;*/
+}
+
+.teacher-stats {
+    display: flex;
+    gap: 16px;
+    font-size: 12px;
+    color: #999;
+}
+
+.teacher-stats i {
+    margin-right: 4px;
+}
+
+/* 操作按钮区域 */
+.card-action {
+    display: flex;
+    align-items: center;
+    padding-right: 16px;
+}
+
+/* 空状态 */
+.empty-state {
+    text-align: center;
+    padding: 60px 20px;
+    background: white;
+    border-radius: 20px;
+}
+
+.empty-state i {
+    font-size: 64px;
+    color: #ddd;
+}
+
+.empty-state p {
+    margin-top: 16px;
+    color: #999;
+}
+
+/* 分页 */
+.pagination-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+}
+
+/* 响应式 */
+@media (max-width: 768px) {
+    .teacher-page-content {
+        padding: 16px;
+    }
+
+    .teacher-list {
+        grid-template-columns: 1fr;
+    }
+
+    .teacher-card {
+        flex-direction: column;
+    }
+
+    .card-avatar {
+        width: 100%;
+        padding: 20px 0;
+    }
+
+    .card-action {
+        padding: 0 16px 16px;
+        justify-content: flex-end;
+    }
+
+    .search-box {
+        flex-direction: column;
+        background: transparent;
+        padding: 0;
+    }
+
+    .search-input {
+        width: 100%;
+    }
+
+    .search-input >>> .el-input__inner {
+        background: white;
+        border-radius: 40px;
+        padding: 12px 20px;
+    }
+
+    .search-btn {
+        width: 100%;
+    }
+}

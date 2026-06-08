@@ -1,0 +1,116 @@
+.task {
+    width: 100%;
+    height: 100%;
+}
+.task-page-content {
+    width: 100%;
+    min-height: 88%;
+    background: url('../../../assets/image/index/index_back.png');
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.task-page-search {
+    margin-top: 30px;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    background-color: #F3F5F6;
+}
+.task-page-list {
+    width: 70%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.task-font {
+    width: 70%;
+    margin-top: 40px;
+    font-size: 25px;
+    font-family: '黑体';
+    letter-spacing: 3px;
+}
+.task-search-item {
+    margin-top: 10px;
+    margin-left: 25px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    font-family: '黑体';
+    width: 30%;
+}
+.task-search-type {
+    margin-right: 15px;
+    cursor: pointer;
+}
+.task-search-type:hover {
+    color: #58C7A4;
+}
+.task-page-btns {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 15px;
+}
+.task-page-item {
+    width: 320px;
+    margin-left: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border: 2px solid #EFF1F2;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.task-page-image {
+    margin-top: 2%;
+    width: 96%;
+    height: 48%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.task-page-name {
+    width: 96%;
+    height: 35%;
+    overflow: hidden;
+    font-family: '黑体';
+}
+.task-page-name-one {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-top: 5px;
+    font-size: 20px;
+}
+.task-page-name-two {
+    height: 130px;
+    margin-top: 5px;
+    font-size: 14px;
+    color: #5C5C5C;
+}
+.task-page-user {
+    width: 96%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    font-family: '黑体';
+    justify-content: space-between;
+}
+.task-page-fenye {
+    margin-top: 20px;
+    width: 70%;
+}
+.task-page-bottom {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: url('../../../assets/image/index/index_back.png');
+}

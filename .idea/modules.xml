@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/learn_server-master/BACK_STAGE_SERVER.iml" filepath="$PROJECT_DIR$/learn_server-master/BACK_STAGE_SERVER.iml" />
+      <module fileurl="file://$PROJECT_DIR$/learn_server-master/ape-admin/ape-admin.iml" filepath="$PROJECT_DIR$/learn_server-master/ape-admin/ape-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/learn_server-master/ape-common/ape-common.iml" filepath="$PROJECT_DIR$/learn_server-master/ape-common/ape-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/learn_server-master/ape-framework/ape-framework.iml" filepath="$PROJECT_DIR$/learn_server-master/ape-framework/ape-framework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/learn_server-master/ape-generator/ape-generator.iml" filepath="$PROJECT_DIR$/learn_server-master/ape-generator/ape-generator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/learn_server-master/ape-quartz/ape-quartz.iml" filepath="$PROJECT_DIR$/learn_server-master/ape-quartz/ape-quartz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/learn_server-master/ape-system/ape-system.iml" filepath="$PROJECT_DIR$/learn_server-master/ape-system/ape-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/code.iml" filepath="$PROJECT_DIR$/.idea/code.iml" />
+    </modules>
+  </component>
+</project>

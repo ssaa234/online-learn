@@ -1,0 +1,230 @@
+.taskInfo {
+    width: 100%;
+    height: 100%;
+}
+.taskInfo-content {
+    width: 100%;
+    height: 88%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url('../../../assets/image/index/index_back.png');
+}
+.taskInfo-name {
+    width: 75%;
+    height: 100%;
+}
+.taskInfo-desc {
+    padding-top: 2%;
+    height: 10%;
+    overflow: hidden;
+}
+.taskInfo-title {
+    font-size: 20px;
+}
+.taskInfo-title1 {
+    margin-top: 7px;
+    font-family: '黑体';
+    width: 70%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: #B8B8B9;
+    font-size: 14px;
+}
+.taskInfo-list {
+    width: 100%;
+    height: 88%;
+    display: flex;
+}
+.taskInfo-image {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.taskInfo-fengmian {
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 2%;
+    width: 95%;
+    height: 83%;
+}
+.taskInfo-btns {
+    width: 95%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.taskInfo-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid #EFF1F2;
+    background-color: #FAFAFA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+.taskInfo-video {
+    width: 30%;
+    height: 90%;
+    margin-top: 1%;
+    border: 2px solid #EFF1F2;
+    border-radius: 7px;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.taskInfo-video::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+.taskInfo-video-item {
+    margin-top: 7px;
+    width: 97%;
+    height: 8%;
+    background-color: #FAFAFA;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+    flex-grow: 0;
+    flex-basis: auto;
+}
+.taskInfo-video-item1 {
+    width: 80%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-left: 12px;
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-family: '黑体';
+}
+.taskInfo-video-item2 {
+    margin-right: 15px;
+}
+.taskInfo-bottom {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    width: 100%;
+}
+.comment-section {
+    background: white;
+    border-radius: 16px;
+    padding: 20px 24px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
+    width: 100%;  /* 设置固定宽度 */
+    max-width: 1000px;
+}
+.taskInfo-comment {
+    width: 85%;
+}
+.taskInfo-comment-font {
+    margin-bottom: 15px;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+/* 评论输入框 - 变长 */
+.taskInfo-comment-content .el-textarea__inner {
+    min-height: 120px;
+    font-size: 14px;
+    line-height: 1.6;
+}
+.taskInfo-comment-btn {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+/* 评论列表 - 居中且样式优化 */
+.taskInfo-comment-list {
+    border: 2px solid #EFF1F2;
+    border-radius: 12px;
+    background: white;
+    padding: 10px 20px;
+}
+/* 评论项 - 统一靠左 */
+.taskInfo-comment-item {
+    padding: 20px 0;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    border-bottom: 1px solid #f0f0f0;
+}
+.taskInfo-comment-item:last-child {
+    border-bottom: none;
+}
+.taskInfo-comment-item1 {
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: '黑体';
+    letter-spacing: 1px;
+    color: #20B486;
+}
+.taskInfo-comment-item2 {
+    margin-top: 8px;
+    margin-left: 10px;
+    font-size: 14px;
+    font-family: '黑体';
+    letter-spacing: 1px;
+    width: 90%;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+    border-radius: 12px;
+    padding: 12px 15px;
+}
+.taskInfo-comment-item3 {
+    margin-top: 8px;
+    margin-left: 10px;
+    font-size: 14px;
+    font-family: '黑体';
+    letter-spacing: 1px;
+    width: 100%;
+    background-color: #e8f5e9;
+    color: #333;
+    line-height: 1.6;
+    border-radius: 12px;
+    padding: 12px 15px;
+}
+.taskInfo-comment-item-right {
+    padding: 20px 0;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    border-bottom: 1px solid #f0f0f0;
+    text-align: right;
+}
+.taskInfo-comment-item-right .taskInfo-comment-item1 {
+    margin-right: 10px;
+    margin-left: 0;
+}
+.taskInfo-comment-item-right .taskInfo-comment-item3 {
+    margin-right: 10px;
+    margin-left: 0;
+    text-align: right;
+}
+.taskInfo-comment-item-right .taskInfo-comment-item2 {
+    margin-right: 10px;
+    margin-left: 0;
+    text-align: right;
+}
+/* 响应式调整 */
+@media (max-width: 768px) {
+    .taskInfo-comment {
+        width: 95%;
+    }
+    .taskInfo-name {
+        width: 95%;
+    }
+}

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ape-framework" />
+        <module name="ape-common" />
+        <module name="ape-system" />
+        <module name="ape-admin" />
+        <module name="ape-quartz" />
+        <module name="ape-generator" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ape-admin" target="1.8" />
+      <module name="ape-common" target="1.8" />
+      <module name="ape-framework" target="1.8" />
+      <module name="ape-generator" target="1.8" />
+      <module name="ape-quartz" target="1.8" />
+      <module name="ape-system" target="1.8" />
+      <module name="BACK_STAGE_SERVER" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

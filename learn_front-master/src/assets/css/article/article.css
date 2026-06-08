@@ -1,0 +1,89 @@
+.article {
+    width: 100%;
+    height: 100%;
+}
+.article-page-content {
+    width: 100%;
+    display: flex;
+    font-family: '黑体';
+    flex-direction: column;
+    align-items: center;
+    background: url('../../../assets/image/index/index_back.png');
+}
+.article-page-title {
+    width: 70%;
+    margin-top: 40px;
+    font-size: 25px;
+    font-family: '黑体';
+    letter-spacing: 3px;
+}
+.article-page-list {
+    margin-top: 30px;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.article-page-item {
+    margin-top: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 49%;
+    height: 250px;
+    border: 2px solid #EFF1F2;
+    border-radius: 10px;
+    position: relative;
+}
+.article-page-image {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+.article-page-user {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    margin-top: 20px;
+}
+.article-page-font {
+    width: 90%;
+    height: 50%;
+    letter-spacing: 1px;
+    padding-left: 30px;
+    overflow: hidden;
+    font-size: 13px;
+    font-family: '黑体';
+    margin-top: 20px;
+}
+.article-page-username {
+    margin-left: 20px;
+    font-size: 15px;
+    font-family: '黑体';
+}
+.article-page-avatar {
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.article-page-fenye {
+    margin-top: 10px;
+    width: 70%;
+}
+.article-page-bottom {
+    margin-top: 10px;
+    width: 70%; 
+}
+.article-page-search {
+    background-color: #F3F5F6;
+    margin-top: 30px;
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.article-page-btns {
+    margin-left: 10px;
+    align-self: center;
+}
