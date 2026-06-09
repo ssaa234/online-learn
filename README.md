@@ -45,11 +45,13 @@
 
 ### 课程学习
 
-![课程列表](screenshots/course-list.png)
+![课程列表](screenshots/kclb.png)
 
-![课程详情](screenshots/course-detail.png)
+![课程详情](screenshots/kcxq.png)
 
-![在线刷题](screenshots/exam.png)
+![章节作业](screenshots/exam.png)
+
+![课程考试](screenshots/test.png)
 
 ### 论坛交流
 
