@@ -17,9 +17,9 @@
 - **管理员端**：用户审核、课程审核、帖子留言审核、公告发布
 - **推荐系统**：个性化课程推荐 + 热门帖子推荐
 
-![功能模块图](screenshots/yh-login.png)
+![功能模块图](screenshots/gnmkt.png)
 
-![业务流程图](screenshots/yh-zc.png)
+![业务流程图](screenshots/ywlct.png)
 
 ## 项目截图
 
@@ -48,6 +48,10 @@
 ![课程详情](screenshots/kcxq.png)
 
 ![章节作业](screenshots/exam.png)
+
+![教师列表](screenshots/teacher-list.png)
+
+![教师详情](screenshots/teacher.png)
 
 ### 论坛交流
 
