@@ -17,6 +17,10 @@
 - **管理员端**：用户审核、课程审核、帖子留言审核、公告发布
 - **推荐系统**：个性化课程推荐 + 热门帖子推荐
 
+![功能模块图](screenshots/yh-login.png)
+
+![业务流程图](screenshots/yh-zc.png)
+
 ## 项目截图
 
 ### 登录注册
@@ -37,12 +41,6 @@
 
 ![帖子推荐](screenshots/tztj.png)
 
-### 个人中心
-
-![用户个人中心](screenshots/1center.png)
-
-![管理员个人中心](screenshots/1admin-center.png)
-
 ### 课程学习
 
 ![课程列表](screenshots/kclb.png)
@@ -50,8 +48,6 @@
 ![课程详情](screenshots/kcxq.png)
 
 ![章节作业](screenshots/exam.png)
-
-![课程考试](screenshots/test.png)
 
 ### 论坛交流
 
@@ -61,9 +57,13 @@
 
 ### 个人中心
 
+![个人中心](screenshots/1center.png)
+
 ![我的课程](screenshots/my-courses.png)
 
-![我的笔记](screenshots/my-notes.png)
+![我的笔记](screenshots/note.png)
+
+![我的考试](screenshots/test.png)
 
 ### 教师端
 
