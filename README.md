@@ -19,6 +19,8 @@
 
 ![功能模块图](screenshots/gnmkt.png)
 
+![课程推荐算法流程图](screenshots/tjxt.png)
+
 ## 项目截图
 
 ### 登录注册
@@ -69,17 +71,6 @@
 
 ![我的考试](screenshots/test.png)
 
-### 教师端
-
-![课程管理](screenshots/teacher-course.png)
-
-![学生管理](screenshots/teacher-student.png)
-
-### 管理员端
-
-![用户审核](screenshots/admin-user.png)
-
-![课程审核](screenshots/admin-course.png)
 
 ## 运行说明
 
@@ -89,6 +80,4 @@
 3. 运行 Spring Boot 主类
 
 ### 前端启动
-```bash
-npm install
 npm run serve
