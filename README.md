@@ -19,8 +19,6 @@
 
 ![功能模块图](screenshots/gnmkt.png)
 
-![业务流程图](screenshots/ywlct.png)
-
 ## 项目截图
 
 ### 登录注册
@@ -66,6 +64,8 @@
 ![我的课程](screenshots/my-courses.png)
 
 ![我的笔记](screenshots/note.png)
+
+![我的帖子](screenshots/myforum.png)
 
 ![我的考试](screenshots/test.png)
 
