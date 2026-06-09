@@ -51,7 +51,7 @@
 
 ![教师列表](screenshots/teacher-list.png)
 
-![教师详情](screenshots/teacher.png)
+![教师详情](screenshots/teaher.png)
 
 ### 论坛交流
 
