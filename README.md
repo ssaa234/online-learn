@@ -21,13 +21,21 @@
 
 ### 登录注册
 
-![前端登录页面](screenshots/login.png)
+![用户登录页面](screenshots/yh-login.png)
 
-![前端注册页面](screenshots/register.png)
+![用户注册页面](screenshots/yh-zc.png)
+
+![教师注册页面](screenshots/teacher-zc.png)
+
+![管理员登录页面](screenshots/gly-login.png)
 
 ### 学生端首页
 
-![首页推荐](screenshots/home.png)
+![首页推荐](screenshots/0index.png)
+
+### 个人中心
+
+![用户个人中心](screenshots/1center.png)
 
 ### 课程学习
 
