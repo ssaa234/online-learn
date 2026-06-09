@@ -31,11 +31,17 @@
 
 ### 学生端首页
 
-![首页推荐](screenshots/0index.png)
+![首页](screenshots/0index.png)
+
+![课程推荐](screenshots/kctj.png)
+
+![帖子推荐](screenshots/tztj.png)
 
 ### 个人中心
 
 ![用户个人中心](screenshots/1center.png)
+
+![管理员个人中心](screenshots/1admin-center.png)
 
 ### 课程学习
 
